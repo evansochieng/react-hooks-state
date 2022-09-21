@@ -7,6 +7,12 @@ function Counter() {
     setCount(count + 1);
   }
 
+  // //When you want to use value from current state, use callback function
+  // function increment() {
+  //   setCount((currentCount) => currentCount + 1);
+  //   setCount((currentCount) => currentCount + 1);
+  // }
+
   return <button onClick={increment}>I have been clicked {count} times</button>;
 }
 
